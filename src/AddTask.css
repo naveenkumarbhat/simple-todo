@@ -1,0 +1,45 @@
+/* AddTask.css */
+/* Styles for the AddTask component */
+
+.add-task {
+    margin-top: 10px;
+    display: flex;
+    margin-right: 20%;
+    margin-left: 20%;
+  }
+  
+  .add-task input {
+    flex: 1;
+    padding: 8px;
+    margin-right: 8px;
+    margin-top: 10px;
+  }
+  
+  .add-task button {
+    padding: 8px;
+    cursor: pointer;
+    border: 1px solid #3498db;
+    border-radius: 4px;
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  /* Add any other styles specific to the AddTask component */
+  
+  /* Media query for small screens */
+  @media screen and (max-width: 600px) {
+    .add-task {
+      flex-direction: column;
+    }
+  
+    .add-task input {
+      margin-right: 0;
+      margin-bottom: 5px;
+    }
+  
+    .add-task button {
+      margin-top: 5px;
+      margin-right: 0;
+    }
+  }
+  
